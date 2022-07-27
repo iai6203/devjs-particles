@@ -1,0 +1,13 @@
+src
+test
+README.md
+tsconfig.json
+.prettierrc
+package-lock.json
+webpack.config.js
+LICENSE
+
+.gitignore
+.npmignore
+
+.idea

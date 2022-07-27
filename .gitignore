@@ -1,0 +1,13 @@
+# node
+node_modules
+package-lock.json
+
+# test
+test
+
+# production
+dist/**
+!dist/particles.min.js
+
+# jetbrains
+.idea

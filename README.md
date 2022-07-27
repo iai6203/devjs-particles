@@ -1,0 +1,81 @@
+# Particles
+
+## Table of Contents
+
+  - [Features](#features)
+  - [Browser](#browser-support)
+  - [Installing](#installing)
+  - [Example](#example)
+  - [Config](#config)
+
+## Features
+
+- Make HTMLCanvasElemnt effects
+- Easy to customizing
+
+## Browser Support
+
+![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/main/src/firefox/firefox_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/main/src/safari/safari_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/main/src/opera/opera_48x48.png) | ![Edge](https://raw.githubusercontent.com/alrra/browser-logos/main/src/edge/edge_48x48.png) |
+--- | --- | --- | --- | --- |
+Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
+
+## Installing
+
+  1. Click this link [Source File](https://github.com/iai6203/devjs-particles/blob/master/dist/particles.min.js)
+  2. Copy source to your static directory
+
+## Example
+
+```html
+<div id="container"></div>
+```
+``` javascript
+const containerEl = document.querySelector('#container')
+
+const effect = particles.initParticles({
+  container: containerEl,
+})
+
+// or
+
+const effect = particles.initBall({
+  container: containerEl,
+})
+
+// remove effect
+effect.destroy()
+```
+
+## Config
+
+### initParticles()
+```javascript
+{
+  // `colors` is the particles spark color
+  colors: ['#000'] // default
+}
+```
+
+### initBall()
+```javascript
+{
+  // `count` is the number of balls
+  count: 200 // default
+  
+  // `distance` is the triggered distance of expand ball distance
+  distance: 200 // default
+  
+  // `radius` is the ball radius
+  radius: 20 // default,
+  
+  // `maxRadius` is the max expand radius
+  maxRadius: 40 // default
+  
+  // `colors` is the ball color
+  colors: ['#000'] // default
+}
+```
+
+## License
+
+[MIT](LICENSE)
