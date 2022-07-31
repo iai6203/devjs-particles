@@ -21,8 +21,15 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
 ## Installing
 
-  1. Click this link [Source File](https://github.com/iai6203/devjs-particles/blob/master/dist/particles.min.js)
-  2. Copy source to your static directory
+Using npm:
+```bash
+$ npm install devjs-particles
+```
+
+Using yarn:
+```bash
+$ yarn add devjs-particles
+```
 
 ## Example
 
