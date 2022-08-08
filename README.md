@@ -49,6 +49,12 @@ const effect = particles.initBall({
   container: containerEl,
 })
 
+// or
+
+const effect = particles.initWeb({
+  container: containerEl,
+})
+
 // remove effect
 effect.destroy()
 ```
@@ -80,6 +86,20 @@ effect.destroy()
   
   // `colors` is the ball color
   colors: ['#000'] // default
+}
+```
+
+### initWeb()
+```javascript
+{
+  // 'ballCnt' is the number of balls
+  ballCnt: 500 // default
+  
+  // 'ballColor' is the color of balls
+  ballColor: '#000' // default
+  
+  // 'distance' is the trigger web distance
+  distance: 100 // default
 }
 ```
 
