@@ -1,5 +1,6 @@
 import Particle, { Props as ParticleProps } from './effects/Particle'
 import Ball, { Props as BallProps } from './effects/Ball'
+import Web, { Props as WebProps } from "./effects/Web"
 
 const defaultValidationCheck = (props: any) => {
   if (!props) throw new Error('Cannot find options')
@@ -21,4 +22,10 @@ export const initBall = (props: BallProps) => {
   defaultValidationCheck(props)
 
   return new Ball(props)
+}
+
+export const initWeb = (props: WebProps) => {
+  defaultValidationCheck(props)
+
+  return new Web(props)
 }
