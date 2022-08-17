@@ -1,6 +1,6 @@
 {
   "name": "devjs-particles",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "./dist/particles.min.js",
   "types": "./dist/index.d.ts",
