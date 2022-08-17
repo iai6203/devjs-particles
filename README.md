@@ -1,5 +1,10 @@
 # Particles
 
+[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.com/package/devjs-particles)
+[![npm downloads](https://img.shields.io/npm/dm/axios.svg?style=flat-square)](https://npm-stat.com/charts.html?package=devjs-particles)
+
+> New devjs-particles docs website: [click here](https://devjs-particles-docs.vercel.app/)
+
 ## Table of Contents
 
   - [Features](#features)
